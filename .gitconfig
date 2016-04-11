@@ -3,3 +3,5 @@
 	email = sapiensy@gmail.com
 [core]
 	autocrlf = input
+[push]
+	default = simple
