@@ -1,0 +1,5 @@
+[user]
+	name = sap1ens
+	email = sapiensy@gmail.com
+[core]
+	autocrlf = input
