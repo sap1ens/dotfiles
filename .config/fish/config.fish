@@ -18,6 +18,7 @@ alias highlight_scala="pbpaste | highlight --syntax=scala -O rtf | pbcopy"
 . $fish_path/oh-my-fish.fish
 
 set -U fish_user_paths /usr/local/sbin $fish_user_paths
+set -U fish_user_paths /Users/slavatkachenko/n/bin $fish_user_paths
 
 source ~/.bash_profile
 clear
