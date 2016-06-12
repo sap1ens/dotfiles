@@ -6,6 +6,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'nerdtree'
 
 call vundle#end()            " required
@@ -65,3 +67,5 @@ set laststatus=2        " show the status bar even when editing one file.
 set lazyredraw
 
 nnoremap <esc> :noh<return><esc>
+
+autocmd vimenter * NERDTree
