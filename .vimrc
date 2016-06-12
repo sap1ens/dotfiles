@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'vim-colors-solarized'
 Plugin 'nerdtree'
 
 call vundle#end()            " required
@@ -16,11 +15,8 @@ filetype plugin indent on    " required
 " basic visual stuff
 syntax on               " enable syntax highlighting
 set background=dark
-color solarized
-let g:solarized_termcolors=16
 
 set guifont=Source\ Code\ Pro:h14
-set cursorline
 set modelines=0
 set clipboard=unnamed
 set ttyscroll=10
