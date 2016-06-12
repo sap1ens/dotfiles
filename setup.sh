@@ -30,3 +30,6 @@ brew tap Homebrew/bundle
 brew bundle
 
 chsh -s $(which zsh)
+
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl || true
+
