@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/versions'
 tap 'phinze/cask'
 
+brew 'zsh'
 brew 'libyaml'
 brew 'openssl'
 brew 'boost'
