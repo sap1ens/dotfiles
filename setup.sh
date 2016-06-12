@@ -16,8 +16,8 @@ _checkout_repo_into_folder() {
 	echo "Done with $folder"
 }
 
-# fish
-_checkout_repo_into_folder ~/.oh-my-fish "oh-my-fish/oh-my-fish" 403e5652b428331286ded98c8579df3de39b24fb
+# zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 # Vim
 mkdir -p .vim/bundle
@@ -29,3 +29,5 @@ _checkout_repo_into_folder ~/.vim/bundle/vim-colors-solarized "altercation/vim-c
 # Installing brew stuff
 brew tap Homebrew/bundle
 brew bundle
+
+chsh -s $(which zsh)
