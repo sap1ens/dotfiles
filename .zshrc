@@ -85,4 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 unsetopt share_history
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 source ~/.bash_profile
