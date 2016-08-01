@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'nerdtree'
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()            " required
 
