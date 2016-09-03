@@ -3,5 +3,6 @@
 	email = sapiensy@gmail.com
 [core]
 	autocrlf = input
+	editor = vim
 [push]
 	default = simple
