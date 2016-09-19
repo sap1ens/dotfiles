@@ -35,6 +35,7 @@ brew 'tmux'
 brew 'wget'
 brew 'caskroom/cask/brew-cask'
 brew 'homebrew/versions/phantomjs198'
+brew 'python3'
 
 cask 'intellij-idea'
 cask 'google-chrome'
