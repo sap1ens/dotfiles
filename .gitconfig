@@ -1,6 +1,8 @@
 [user]
-	name = sap1ens
+	name = Yaroslav Tkachenko
 	email = sapiensy@gmail.com
+[credential]
+	helper = osxkeychain	
 [core]
 	autocrlf = input
 	editor = vim
