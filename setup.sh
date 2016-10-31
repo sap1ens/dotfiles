@@ -33,3 +33,4 @@ chsh -s $(which zsh)
 
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl || true
 
+pip install -r requirements.txt
