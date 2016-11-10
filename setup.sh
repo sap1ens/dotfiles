@@ -33,4 +33,6 @@ chsh -s $(which zsh)
 
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl || true
 
+curl -L get.rvm.io | bash
+
 pip install -r requirements.txt
