@@ -24,8 +24,8 @@ mkdir -p .vim/bundle
 _checkout_repo_into_folder ~/.vim/bundle/Vundle.vim "gmarik/Vundle.vim" cfd3b2d388a8c2e9903d7a9d80a65539aabfe933
 _checkout_repo_into_folder ~/.vim/bundle/nerdtree "scrooloose/nerdtree" 96c07746b46c12d0aca7a5276cc5bd0a260b82fe
 
-
 # Installing brew stuff
+cd ~
 brew tap Homebrew/bundle
 brew bundle
 
