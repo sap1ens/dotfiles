@@ -1,8 +1,5 @@
-ansible
-PyYAML
 aws-shell
 awscli
 awsh
 pgcli
 virtualenv
-bpython

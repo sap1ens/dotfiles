@@ -1,15 +1,3 @@
 [user]
 	name = Yaroslav Tkachenko
 	email = sapiensy@gmail.com
-[credential]
-	helper = osxkeychain	
-[core]
-	autocrlf = input
-	editor = vim
-[push]
-	default = simple
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
